@@ -57,7 +57,7 @@ p {
 .card__img {
   width: 233px;
   height: 123px;
-  object-fit: contain;
+  object-fit: cover;
   margin-bottom: 11px;
 }
 
