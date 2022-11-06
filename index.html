@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>exam-task-1</title>
+</head>
+<body>
+    
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h2 class="hero__heading">Products</h2>
+                <p><b id="resultCount"></b></p>
+                <div class="hero__container">
+                    <div class="hero__loading">
+                        <ul class="hero__list">
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <template id="cards__temp">
+        <li class="hero__item">
+            <img class="card__img" src="./images/apple.png" alt="apple" width="233" height="123">
+            <h3 class="cards__title"></h3>
+            <p class="card__price"></p>
+            <p class="card__discount"></p>
+            <p class="card__discription">e</p>
+            <p class="cards__category"></p>
+            <p class="card__name"></p>
+            <div class="card__wrapper">
+                <button class="card__btn btn btn-danger" type="button" data-id="id">Delete</button>
+            </div>
+        </li>
+    </template>
+    
+    
+    <script src="https://kit.fontawesome.com/f6c14b5c79.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./js/bootstrap.bundle.min.js">
+</body>
+</html>
