@@ -48,6 +48,7 @@ p {
   padding-right: 14px;
   padding-left: 14px;
   transition: 0.3s ease;
+  border-radius: 10px;
 }
 
 .hero__item:hover {
