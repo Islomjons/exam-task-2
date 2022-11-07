@@ -82,6 +82,7 @@ elCardsList.addEventListener("click", function(evt) {
             })
             products.splice(deleteIndex, 1)
             renderProducts(products)
+            alert(confirm("Do you want to delete"))
         })
         .catch(() => {
             evt.target.disabled = false
